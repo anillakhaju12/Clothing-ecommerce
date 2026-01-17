@@ -5,12 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
-    "client": "npm start --prefix ./client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "demo:watch": "node scripts/watch_recommendation_demo.js",
-    "backfill:slugs": "node scripts/backfill_product_slugs.js",
-    "generate:keywords": "node scripts/generate_keywords.js"
+    "server": "nodemon index.js"
   },
   "keywords": [],
   "author": " online clothing ecommerce",
